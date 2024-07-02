@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20;
+    height: 75vh;
+}
+
+.btn {
+    padding: 6px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Comic Neue";
+    font-weight: 700;
+    color: white;
+    font-style: normal;
+    background-color: rgb(255, 6, 118);
+}
+
+.pfp{
+    border-radius: 100%;
+}
+
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+    display: flex;
+}
+
+.pfp-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
